@@ -45,3 +45,7 @@ def search(request):
         "blogs": blogs,
     }
     return render(request, "search.html", context)
+
+
+def register(request):
+    return render(request, "register.html")
